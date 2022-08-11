@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Update Types"
+        android:textColor="#8A8C8C"
+        android:textSize="28sp" />
+    <EditText
+
+        android:hint="Name"
+        android:textColor="#00BCD4"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawableStart="@drawable/ic_baseline_addbox1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/txt_title"
+        android:id="@+id/text_type_update_GD"
+        android:background="@drawable/custom_input"
+        />
+    <EditText
+
+        android:hint="Date"
+        android:textColor="#00BCD4"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawableStart="@drawable/ic_baseline_addbox1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/text_type_update_GD"
+        android:id="@+id/text_date_update_GD"
+        android:background="@drawable/custom_input"
+        />
+    <EditText
+
+        android:hint="Money"
+        android:textColor="#00BCD4"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawableStart="@drawable/ic_baseline_addbox1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/text_date_update_GD"
+        android:id="@+id/text_money_update_GD"
+        android:background="@drawable/custom_input"
+        />
+    <EditText
+
+        android:hint="ID"
+        android:textColor="#00BCD4"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawableStart="@drawable/ic_baseline_addbox1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/text_money_update_GD"
+        android:id="@+id/textedit_maloai_GD"
+        android:background="@drawable/custom_input"
+        />
+    <EditText
+
+        android:hint="Status"
+        android:textColor="#00BCD4"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawableStart="@drawable/ic_baseline_addbox1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/textedit_maloai_GD"
+        android:id="@+id/textedit_status_GD"
+        android:background="@drawable/custom_input"
+        />
+
+    <Button
+        android:id="@+id/btn_updateGD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textedit_status_GD"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F397B6"
+        android:text="Update"
+        android:textColor="#ffffff" />
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:backgroundTint="#F397B6"
+        android:id="@+id/btn_cancleGD"
+        android:layout_below="@id/btn_updateGD"
+        android:textColor="#ffffff"
+        />
+</RelativeLayout>

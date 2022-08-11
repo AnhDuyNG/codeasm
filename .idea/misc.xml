@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/custom_button.xml" value="0.305" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/custom_input.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/custom_spinner.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_account_box_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.261" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_add_01.xml" value="0.305" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_addbox1.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_chi.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_exit.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_flaky_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_gioithieu.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_status.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_thongke.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_baseline_thu.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/drawable/ic_lock.xml" value="0.2785" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/acitivity_themgd.xml" value="0.29743589743589743" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/activity_giaodich.xml" value="0.3484375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/activity_login.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/activity_main.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/activity_phanloai.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/activity_thempl.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/activity_xoapl.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/dialog_themgd.xml" value="0.3625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/dialog_thempl.xml" value="0.3625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/dialog_updategd.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/dialog_xoapl.xml" value="0.3625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/diaolog_updatepl.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/fragment_chi.xml" value="0.27049180327868855" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/fragment_khoanthu.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/fragment_thongke.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/fragment_thu.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/header.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/recycleview_gd_item.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/layout/recycleview_pl_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/menu/menu_bot.xml" value="0.3625" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/ASM_nguyenconganhduy_ps25332/app/src/main/res/menu/menu_header.xml" value="0.3614583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

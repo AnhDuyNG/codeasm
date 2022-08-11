@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="#999C9C"
+        android:text="Update Types"
+        android:padding="10dp"
+        android:id="@+id/txt_title"
+        android:gravity="center"
+        />
+    <EditText
+
+        android:hint="Name"
+        android:textColor="#00BCD4"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:drawableStart="@drawable/ic_baseline_addbox1"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/txt_title"
+        android:id="@+id/text_type_update"
+        android:background="@drawable/custom_input"
+        />
+    <Spinner
+        android:background="@drawable/custom_spinner"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#00BCD4"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/spinner_status_update"
+        android:layout_below="@id/text_type_update"
+        />
+
+    <Button
+        android:id="@+id/btn_updatePhanLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_status_update"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#F397B6"
+        android:text="Update"
+        android:textColor="#ffffff" />
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:backgroundTint="#F397B6"
+        android:id="@+id/btn_canclePhanLoai"
+        android:layout_below="@id/btn_updatePhanLoai"
+        android:textColor="#ffffff"
+        />
+</RelativeLayout>

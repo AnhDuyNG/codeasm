@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/thu_header"
+            android:icon="@drawable/ic_baseline_thu"
+            android:title="Income"
+            />
+        <item android:id="@+id/chi_header"
+            android:icon="@drawable/ic_baseline_chi"
+            android:title="Outcome"
+            />
+        <item android:id="@+id/thongke_header"
+            android:icon="@drawable/ic_baseline_thongke"
+            android:title="Economic statistics"
+            />
+    </group>
+    <item   android:title="Communicate">
+        <menu>
+            <item android:id="@+id/gioi_thieu"
+                android:icon="@drawable/ic_baseline_gioithieu"
+                android:title="Guide"
+                />
+            <item android:id="@+id/cai_dat"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Settings"
+                />
+            <item android:id="@+id/exit"
+                android:icon="@drawable/ic_baseline_exit"
+                android:title="Exit"
+                />
+        </menu>
+    </item>
+
+
+</menu>

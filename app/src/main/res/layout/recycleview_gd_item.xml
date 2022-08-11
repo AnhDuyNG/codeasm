@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    android:elevation="6dp"
+    android:id="@+id/card_viewPL"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
+
+        <TextView
+            android:id="@+id/text_tenloai_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Types:"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/text_tenloai_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textSize="24sp"
+            android:id="@+id/text_date_GD"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/text_date_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money:"
+            android:textSize="24sp"
+            android:id="@+id/text_money_GD"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/text_money_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id types:"
+            android:textSize="24sp"
+            android:id="@+id/text_maloai_GD"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/text_maloai_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textSize="24sp"
+            android:id="@+id/text_trangthai_GD"/>
+
+        <ImageButton
+            android:id="@+id/btn_updatetext_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_trangthai_GD"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/text_tenloai_GD"
+            android:background="#F397B6"
+            android:padding="2dp"
+            android:src="@drawable/ic_baseline_edit_24" />
+
+        <ImageButton
+            android:id="@+id/btn_deletetext_GD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_trangthai_GD"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/btn_updatetext_GD"
+            android:background="#F397B6"
+            android:padding="2dp"
+            android:src="@drawable/ic_baseline_delete_24" />
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/text_tenloai_GD"
+            android:id="@+id/textedit_tenloai_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="Types name"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/text_tenloai_GD"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/textedit_tenloai_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dates"
+            android:textSize="24sp"
+            android:id="@+id/textedit_date_GD"/>
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/text_tenloai_GD"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/textedit_date_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100000"
+            android:textSize="24sp"
+            android:id="@+id/textedit_money_GD"/>
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/text_tenloai_GD"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/textedit_money_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100000"
+            android:textSize="24sp"
+            android:id="@+id/textedit_maloai_GD"/>
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/text_tenloai_GD"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/textedit_maloai_GD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textSize="24sp"
+            android:id="@+id/textedit_trangthai_GD"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

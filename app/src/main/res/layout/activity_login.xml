@@ -1,0 +1,102 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id1"
+        app:layout_constraintStart_toStartOf="parent"
+
+        >
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="168dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_baseline_account_box_24"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:textSize="14sp"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id1"
+        android:layout_marginTop="22dp"
+        android:inputType="text"
+        android:id="@+id/edtuser"
+        android:drawableStart="@drawable/ic_account_box_24"
+        />
+
+    <EditText
+
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_lock"
+        android:id="@+id/edtpass"
+        android:textSize="14sp"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtuser"
+        android:layout_marginTop="16dp"
+        android:inputType="textPassword"
+        />
+    <Button
+        app:backgroundTint="#F397B6"
+        android:id="@+id/btn1"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckcbx1"
+        android:text="Login"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:padding="16sp"
+        />
+    <CheckBox
+        android:textSize="14sp"
+        android:id="@+id/ckcbx1"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        app:layout_constraintTop_toBottomOf="@+id/edtpass"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="24dp"
+        android:text="Forgot your password"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintStart_toEndOf="@+id/ckcbx1"
+        app:layout_constraintTop_toBottomOf="@+id/edtpass" />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:id="@+id/validate"
+        app:layout_constraintTop_toBottomOf="@id/btn1"
+        android:textColor="#FF0404"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
